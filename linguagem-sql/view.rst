@@ -1,8 +1,9 @@
 VIEW
 ====
 
-- Comando utilizado para alterar registros em um banco de dados. Antes de executar qualquer comando ``UPDATE``, procure se informar sobre transações (será abordado mais pra frente).
-- Sempre que for trabalhar com o comando ``UPDATE`` ou ``DELETE``, procure executar um ``SELECT`` antes para validar se os registros que serão afetados, são exatamente aqueles que você deseja.
+- Cria uma nova tabela virtual. A ``VIEW`` possibilita extrair informações específicas de uma tabela existente. 
+
+- Quando não se necessita de todas as informações de uma tabela, solicita apenas algumas colunas. 
 
 .. code-block:: sql
   :linenos:
